@@ -19,7 +19,7 @@ export class GeolocalComponent implements OnInit {
 
 getLocation(){
     
-    console.log(navigator.geolocation)
+
 
   if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(
